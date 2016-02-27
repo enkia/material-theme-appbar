@@ -6,7 +6,7 @@ https://github.com/equinusocio/material-theme-appbar
 👉 Version 1.1.0 👈
 ********************************************************************************
 
-  ➼ Fix sidebar heading color when using purple accent
+  ➼ Fix sidebar heading color when using purple and yellow accent
 
   !! IMPORTANT NOTE !!
   🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
