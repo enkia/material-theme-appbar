@@ -167,7 +167,7 @@
   {
     "class": "sidebar_container",
     "settings": ["material_theme_accent_purple"],
-    "layer0.tint": [255, 87, 34],
+    "layer0.tint": [171, 71, 188],
     "layer1.texture": "Material Theme - Appbar/assets/purple/sidebar_heading.png"
   },
 
