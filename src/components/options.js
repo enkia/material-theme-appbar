@@ -265,7 +265,7 @@
   {
     "class": "sidebar_container",
     "settings": ["material_theme_appbar_yellow"],
-    "layer0.tint": [255, 179, 0],
+    "layer0.tint": [255, 145, 24],
     "layer1.texture": "Material Theme - Appbar/assets/yellow/sidebar_heading.png"
   },
 
