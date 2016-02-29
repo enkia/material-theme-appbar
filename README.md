@@ -23,12 +23,12 @@ If you've intalled 1.0.0 through Package Control please unistall and reinstall i
 ## Addon options
 
 ```json
-"material_theme_tree_headings": true , // Show siderbar headings
-"material_theme_appbar_lime: true"
-"material_theme_appbar_orange: true"
-"material_theme_appbar_purple: true"
-"material_theme_appbar_red: true"
-"material_theme_appbar_yellow: true"
-"material_theme_appbar_indigo: true"
+"material_theme_tree_headings": true, // Show sidebar headings
+"material_theme_appbar_lime": true,
+"material_theme_appbar_orange": true,
+"material_theme_appbar_purple": true,
+"material_theme_appbar_red": true,
+"material_theme_appbar_yellow": true,
+"material_theme_appbar_indigo": true
 ```
 
