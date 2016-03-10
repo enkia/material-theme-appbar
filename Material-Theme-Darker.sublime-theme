@@ -113,8 +113,8 @@
     "content_margin": [8,8],
 
      // Close Icon
-    "layer0.texture": "Material Theme - Appbar/assets/commons/close_icon--hover.png",
-    "layer0.opacity": 0.6,
+    "layer0.texture": "Material Theme - Appbar/assets/commons/close_icon.png",
+    "layer0.opacity": 1.0,
     "layer0.inner_margin": 0,
 
     // Close Icon Hover
