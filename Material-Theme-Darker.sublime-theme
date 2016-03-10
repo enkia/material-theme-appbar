@@ -192,7 +192,7 @@
   {
     "class": "show_tabs_dropdown_button",
     "layer0.texture": "Material Theme - Appbar/assets/commons/overflow_menu--hover.png",
-    "layer0.opacity": 0.8,
+    "layer0.opacity": 0.1,
     "layer1.texture": "Material Theme - Appbar/assets/commons/overflow_menu--hover.png",
     "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
   },
@@ -208,7 +208,7 @@
   {
     "class": "scroll_tabs_left_button",
     "layer0.texture": "Material Theme - Appbar/assets/commons/arrow_left--hover.png",
-    "layer0.opacity": 0.6,
+    "layer0.opacity": 0.1,
     "layer1.texture": "Material Theme - Appbar/assets/commons/arrow_left--hover.png",
     "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
   },
@@ -222,7 +222,7 @@
   {
     "class": "scroll_tabs_right_button",
     "layer0.texture": "Material Theme - Appbar/assets/commons/arrow_right--hover.png",
-    "layer0.opacity": 0.6,
+    "layer0.opacity": 0.1,
     "layer1.texture": "Material Theme - Appbar/assets/commons/arrow_right--hover.png",
     "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
   },
