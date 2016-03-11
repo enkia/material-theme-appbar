@@ -113,16 +113,17 @@
     "content_margin": [8,8],
 
      // Close Icon
-    "layer0.texture": "Material Theme - Appbar/assets/commons/close_icon.png",
+    "layer0.texture": "Material Theme - Appbar/assets/commons/close_icon--hover.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": 0,
+
 
     // Close Icon Hover
     "layer1.texture": "Material Theme - Appbar/assets/commons/close_icon--hover.png",
     "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
 
      // Dirty Icon
-    "layer2.texture": "Material Theme - Appbar/assets/commons/dirty_icon.png",
+    "layer2.texture": "Material Theme - Appbar/assets/commons/dirty_icon--hover.png",
     "layer2.inner_margin": 0,
 
     // Dirty Icon Hover
@@ -192,7 +193,7 @@
   {
     "class": "show_tabs_dropdown_button",
     "layer0.texture": "Material Theme - Appbar/assets/commons/overflow_menu--hover.png",
-    "layer0.opacity": 0.1,
+    "layer0.opacity": 0.8,
     "layer1.texture": "Material Theme - Appbar/assets/commons/overflow_menu--hover.png",
     "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
   },
@@ -208,7 +209,7 @@
   {
     "class": "scroll_tabs_left_button",
     "layer0.texture": "Material Theme - Appbar/assets/commons/arrow_left--hover.png",
-    "layer0.opacity": 0.1,
+    "layer0.opacity": 0.6,
     "layer1.texture": "Material Theme - Appbar/assets/commons/arrow_left--hover.png",
     "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
   },
@@ -222,7 +223,7 @@
   {
     "class": "scroll_tabs_right_button",
     "layer0.texture": "Material Theme - Appbar/assets/commons/arrow_right--hover.png",
-    "layer0.opacity": 0.1,
+    "layer0.opacity": 0.6,
     "layer1.texture": "Material Theme - Appbar/assets/commons/arrow_right--hover.png",
     "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
   },
@@ -594,9 +595,33 @@
     "layer1.texture": "Material Theme - Appbar/assets/indigo/sidebar_heading--small.png",
   },
 
-
-// Charcoal
+  // CHARCOAL ACCENT
   // ##################################################################
+   {
+    "class": "show_tabs_dropdown_button",
+    "settings": ["material_theme_appbar_charcoal"],
+    "layer0.opacity": 0.2,
+  },
+
+  {
+    "class": "scroll_tabs_left_button",
+    "settings": ["material_theme_appbar_charcoal"],
+    "layer0.opacity": 0.2,
+  },
+
+  {
+    "class": "scroll_tabs_right_button",
+    "settings": ["material_theme_appbar_charcoal"],
+    "layer0.opacity": 0.2,
+  },
+
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_appbar_charcoal"],
+    "layer0.texture": "Material Theme - Appbar/assets/charcoal/close_icon.png",
+    "layer1.texture": "Material Theme - Appbar/assets/charcoal/close_icon--hover.png",
+    "layer3.texture": "Material Theme - Appbar/assets/charcoal/dirty_icon--hover.png"
+  },
 
   {
     "class": "tabset_control",
@@ -642,6 +667,91 @@
     "class": "sidebar_container",
     "settings": ["material_theme_small_tab", "material_theme_appbar_charcoal"],
     "layer1.texture": "Material Theme - Appbar/assets/charcoal/sidebar_heading--small.png",
+  },
+
+  // Charcoal Purple
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_appbar_charcoal_purple"],
+    "layer1.texture": "Material Theme - Appbar/assets/charcoal_purple/close_icon--hover.png",
+    "layer3.texture": "Material Theme - Appbar/assets/charcoal_purple/dirty_icon--hover.png"
+  },
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_appbar_charcoal_purple"],
+    "layer1.texture": "Material Theme - Appbar/assets/charcoal_purple/tab_current.png",
+  },
+
+
+  // Charcoal Red
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_appbar_charcoal_red"],
+    "layer1.texture": "Material Theme - Appbar/assets/charcoal_red/close_icon--hover.png",
+    "layer3.texture": "Material Theme - Appbar/assets/charcoal_red/dirty_icon--hover.png"
+  },
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_appbar_charcoal_red"],
+    "layer1.texture": "Material Theme - Appbar/assets/charcoal_red/tab_current.png",
+  },
+
+
+  // Charcoal Orange
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_appbar_charcoal_orange"],
+    "layer1.texture": "Material Theme - Appbar/assets/charcoal_orange/close_icon--hover.png",
+    "layer3.texture": "Material Theme - Appbar/assets/charcoal_orange/dirty_icon--hover.png"
+  },
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_appbar_charcoal_orange"],
+    "layer1.texture": "Material Theme - Appbar/assets/charcoal_orange/tab_current.png",
+  },
+
+  // Charcoal Indigo
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_appbar_charcoal_indigo"],
+    "layer1.texture": "Material Theme - Appbar/assets/charcoal_indigo/close_icon--hover.png",
+    "layer3.texture": "Material Theme - Appbar/assets/charcoal_indigo/dirty_icon--hover.png"
+  },
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_appbar_charcoal_indigo"],
+    "layer1.texture": "Material Theme - Appbar/assets/charcoal_indigo/tab_current.png",
+  },
+
+  // Charcoal Lime
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_appbar_charcoal_lime"],
+    "layer1.texture": "Material Theme - Appbar/assets/charcoal_lime/close_icon--hover.png",
+    "layer3.texture": "Material Theme - Appbar/assets/charcoal_lime/dirty_icon--hover.png"
+  },
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_appbar_charcoal_lime"],
+    "layer1.texture": "Material Theme - Appbar/assets/charcoal_lime/tab_current.png",
+  },
+
+   // Charcoal Yellow
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_appbar_charcoal_yellow"],
+    "layer1.texture": "Material Theme - Appbar/assets/charcoal_yellow/close_icon--hover.png",
+    "layer3.texture": "Material Theme - Appbar/assets/charcoal_yellow/dirty_icon--hover.png"
+  },
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_appbar_charcoal_yellow"],
+    "layer1.texture": "Material Theme - Appbar/assets/charcoal_yellow/tab_current.png",
   },
 
 
