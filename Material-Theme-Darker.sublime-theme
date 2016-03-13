@@ -754,5 +754,163 @@
     "layer1.texture": "Material Theme - Appbar/assets/charcoal_yellow/tab_current.png",
   },
 
+ // SLATE ACCENT
+  // ##################################################################
+   {
+    "class": "show_tabs_dropdown_button",
+    "settings": ["material_theme_appbar_slate"],
+    "layer0.opacity": 0.2,
+  },
+
+  {
+    "class": "scroll_tabs_left_button",
+    "settings": ["material_theme_appbar_slate"],
+    "layer0.opacity": 0.2,
+  },
+
+  {
+    "class": "scroll_tabs_right_button",
+    "settings": ["material_theme_appbar_slate"],
+    "layer0.opacity": 0.2,
+  },
+
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_appbar_slate"],
+    "layer0.texture": "Material Theme - Appbar/assets/slate/close_icon.png",
+    "layer1.texture": "Material Theme - Appbar/assets/slate/close_icon--hover.png",
+    "layer3.texture": "Material Theme - Appbar/assets/slate/dirty_icon--hover.png"
+  },
+
+  {
+    "class": "tabset_control",
+    "settings": ["material_theme_appbar_slate"],
+    "layer0.tint": [43, 45, 58],
+  },
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_appbar_slate"],
+    "layer0.tint": [43, 45, 58],
+    "layer1.texture": "Material Theme - Appbar/assets/slate/tab_current.png",
+    "layer3.texture": {
+            "keyframes":
+            [
+              "Material Theme - Appbar/assets/slate/tab_animation1.png",
+              "Material Theme - Appbar/assets/slate/tab_animation2.png",
+              "Material Theme - Appbar/assets/slate/tab_animation3.png",
+              "Material Theme - Appbar/assets/slate/tab_animation4.png",
+              "Material Theme - Appbar/assets/slate/tab_animation5.png",
+              "Material Theme - Appbar/assets/slate/tab_animation6.png",
+              "Material Theme - Appbar/assets/slate/tab_animation7.png",
+              "Material Theme - Appbar/assets/slate/tab_animation8.png",
+              "Material Theme - Appbar/assets/slate/tab_animation9.png",
+              "Material Theme - Appbar/assets/slate/tab_animation10.png",
+              "Material Theme - Appbar/assets/slate/tab_animation11.png",
+              "Material Theme - Appbar/assets/slate/tab_animation12.png",
+              "Material Theme - Appbar/assets/slate/tab_animation13.png"
+            ],
+            "loop": false,
+            "frame_time": 0.015,
+    }
+  },
+
+  {
+    "class": "sidebar_container",
+    "settings": ["material_theme_appbar_slate"],
+    "layer0.tint": [43, 45, 58],
+    "layer1.texture": "Material Theme - Appbar/assets/slate/sidebar_heading.png"
+  },
+
+  {
+    "class": "sidebar_container",
+    "settings": ["material_theme_small_tab", "material_theme_appbar_slate"],
+    "layer1.texture": "Material Theme - Appbar/assets/slate/sidebar_heading--small.png",
+  },
+
+  // Slate Orange
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_appbar_slate_orange"],
+    "layer1.texture": "Material Theme - Appbar/assets/slate_orange/close_icon--hover.png",
+    "layer3.texture": "Material Theme - Appbar/assets/slate_orange/dirty_icon--hover.png"
+  },
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_appbar_slate_orange"],
+    "layer1.texture": "Material Theme - Appbar/assets/slate_orange/tab_current.png",
+  },
+
+  // Slate Purple
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_appbar_slate_purple"],
+    "layer1.texture": "Material Theme - Appbar/assets/slate_purple/close_icon--hover.png",
+    "layer3.texture": "Material Theme - Appbar/assets/slate_purple/dirty_icon--hover.png"
+  },
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_appbar_slate_purple"],
+    "layer1.texture": "Material Theme - Appbar/assets/slate_purple/tab_current.png",
+  },
+
+  // Slate Lime
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_appbar_slate_lime"],
+    "layer1.texture": "Material Theme - Appbar/assets/slate_lime/close_icon--hover.png",
+    "layer3.texture": "Material Theme - Appbar/assets/slate_lime/dirty_icon--hover.png"
+  },
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_appbar_slate_lime"],
+    "layer1.texture": "Material Theme - Appbar/assets/slate_lime/tab_current.png",
+  },
+
+  // Slate Red
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_appbar_slate_red"],
+    "layer1.texture": "Material Theme - Appbar/assets/slate_red/close_icon--hover.png",
+    "layer3.texture": "Material Theme - Appbar/assets/slate_red/dirty_icon--hover.png"
+  },
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_appbar_slate_red"],
+    "layer1.texture": "Material Theme - Appbar/assets/slate_red/tab_current.png",
+  },
+
+  // Slate Yellow
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_appbar_slate_yellow"],
+    "layer1.texture": "Material Theme - Appbar/assets/slate_yellow/close_icon--hover.png",
+    "layer3.texture": "Material Theme - Appbar/assets/slate_yellow/dirty_icon--hover.png"
+  },
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_appbar_slate_yellow"],
+    "layer1.texture": "Material Theme - Appbar/assets/slate_yellow/tab_current.png",
+  },
+
+  // Slate Indigo
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_appbar_slate_indigo"],
+    "layer1.texture": "Material Theme - Appbar/assets/slate_indigo/close_icon--hover.png",
+    "layer3.texture": "Material Theme - Appbar/assets/slate_indigo/dirty_icon--hover.png"
+  },
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_appbar_slate_indigo"],
+    "layer1.texture": "Material Theme - Appbar/assets/slate_indigo/tab_current.png",
+  },
+
 
 ]
