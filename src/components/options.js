@@ -375,6 +375,56 @@
   },
 
 
+  // BLUE ACCENT
+  // ##################################################################
+
+  {
+    "class": "tabset_control",
+    "settings": ["material_theme_appbar_blue"],
+    "layer0.tint": [41, 121, 255],
+  },
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_appbar_blue"],
+    "layer0.tint": [41, 121, 255],
+    "layer1.texture": "Material Theme - Appbar/assets/blue/tab_current.png",
+    "layer3.texture": {
+            "keyframes":
+            [
+              "Material Theme - Appbar/assets/blue/tab_animation1.png",
+              "Material Theme - Appbar/assets/blue/tab_animation2.png",
+              "Material Theme - Appbar/assets/blue/tab_animation3.png",
+              "Material Theme - Appbar/assets/blue/tab_animation4.png",
+              "Material Theme - Appbar/assets/blue/tab_animation5.png",
+              "Material Theme - Appbar/assets/blue/tab_animation6.png",
+              "Material Theme - Appbar/assets/blue/tab_animation7.png",
+              "Material Theme - Appbar/assets/blue/tab_animation8.png",
+              "Material Theme - Appbar/assets/blue/tab_animation9.png",
+              "Material Theme - Appbar/assets/blue/tab_animation10.png",
+              "Material Theme - Appbar/assets/blue/tab_animation11.png",
+              "Material Theme - Appbar/assets/blue/tab_animation12.png",
+              "Material Theme - Appbar/assets/blue/tab_animation13.png"
+            ],
+            "loop": false,
+            "frame_time": 0.015,
+    }
+  },
+
+  {
+    "class": "sidebar_container",
+    "settings": ["material_theme_appbar_blue"],
+    "layer0.tint": [43, 114, 233],
+    "layer1.texture": "Material Theme - Appbar/assets/blue/sidebar_heading.png"
+  },
+
+  {
+    "class": "sidebar_container",
+    "settings": ["material_theme_small_tab", "material_theme_appbar_blue"],
+    "layer1.texture": "Material Theme - Appbar/assets/blue/sidebar_heading--small.png",
+  },
+
+
   // CYAN ACCENT
   // ##################################################################
 
