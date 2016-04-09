@@ -7,13 +7,15 @@ https://github.com/equinusocio/material-theme-appbar
 ********************************************************************************
 
   ➼ New accent color: pink
+  ➼ New accent color: cyan
+  ➼ New accent color: blue
 
   ⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞
   !! IMPORTANT NOTE !!
   ⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟⏟
 
-  From this update the appbar doesn't get anymore the color from the material theme accent preferences.
-  So, if yuou want indigo tint, you have to set the color separately by add:
+  FThe appbar doesn't get anymore the color from the material theme accent preference.
+  So, if yuou want ex. indigo tint, you have to set the color separately by adding:
 
   {
     ...
