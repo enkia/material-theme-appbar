@@ -29,6 +29,7 @@ If you've intalled 1.0.0 through Package Control please unistall and reinstall i
 "material_theme_appbar_purple": true,
 "material_theme_appbar_red": true,
 "material_theme_appbar_yellow": true,
-"material_theme_appbar_indigo": true
+"material_theme_appbar_indigo": true,
+"material_theme_appbar_pink": true
 ```
 
