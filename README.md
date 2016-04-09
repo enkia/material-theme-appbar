@@ -1,6 +1,6 @@
 # Material Theme - Appbar
 
-With this addon you can add a tinted app bar to your [Material Theme](https://github.com/equinusocio/material-theme) installation. This addon auto fits with material theme accent colors!
+With this addon you can add a tinted app bar to your [Material Theme](https://github.com/equinusocio/material-theme) installation. ~~This addon auto fits with material theme accent colors!~~
 
 ## Screenshots
 ![Material Theme App Bar](http://i.imgur.com/LVhR9jq.png)
@@ -29,6 +29,7 @@ If you've intalled 1.0.0 through Package Control please unistall and reinstall i
 "material_theme_appbar_purple": true,
 "material_theme_appbar_red": true,
 "material_theme_appbar_yellow": true,
-"material_theme_appbar_indigo": true
+"material_theme_appbar_indigo": true,
+"material_theme_appbar_pink": true
 ```
 
